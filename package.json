@@ -1,0 +1,29 @@
+{
+  "name": "braaichecklist",
+  "version": "1.0.0",
+  "description": "elen7046 presentation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lukebowes/braaichecklist.git"
+  },
+  "keywords": [
+    "elen7046"
+  ],
+  "author": "luke bowes",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lukebowes/braaichecklist/issues"
+  },
+  "homepage": "https://github.com/lukebowes/braaichecklist#readme",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "moment": "^2.18.1",
+    "mongodb": "^2.2.26"
+  }
+}
